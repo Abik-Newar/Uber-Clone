@@ -14,17 +14,17 @@
                 <h2>Uber</h2>
             </div>
             <div class="leftNav">
-                    <li class="navlist icon"><a href="#">Company </a><i class="fa fa-chevron-down"></i></li>
+                    <li class="navlist icon" id="CompanyDrop"><a href="#">Company </a><i id="dropChange" class="fa fa-chevron-down"></i></li>
 
-                    <div class="dropdownCompany">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Offerings</a></li>
-                        <li><a href="#">How Uber Works</a></li>
-                        <li><a href="#">Global Citizenship</a></li>
-                        <li><a href="#">Newsroom</a></li>
-                        <li><a href="#">Investor Relation</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Careers</a></li>
+                    <div class="dropdownCompany" id="modalDrop">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Offerings</a>
+                        <a href="#">How Uber Works</a>
+                        <a href="#">Global Citizenship</a>
+                        <a href="#">Newsroom</a></li>
+                        <a href="#">Investor Relation</a>
+                        <a href="#">Blogs</a>
+                        <a href="#">Careers</a>
 
                     </div>
 
@@ -36,7 +36,25 @@
 
             <div class="rightNav">
                 <li class="navlist icon"><a href="#"><i class="fa fa-globe"></i> EN</a></li>
-                <li class="navlist icon"><a href="#"><i class="fa fa-shapes"></i> Products</a></li>
+                <li class="navlist icon" id="productBtn"><a href="#"><i class="fa fa-shapes"></i> Products</a></li>
+
+                <div class="productDrop" id="productDrop">
+                    <li><i class="fa fa-home"></i><a href="#">Home</a></li>
+                    <li><i class="fa fa-car"></i><a href="#">Ride</a></li>
+                    <li><i class="fa fa-car-side"></i><a href="#">Drive</a></li>
+                    <li><i class="fa fa-utensils"></i><a href="#">Eat</a></li>
+                    <li><i class="fa fa-wine-glass"></i><a href="#">Merchants</a></li>
+                    <li><i class="fa fa-truck"></i><a href="#">Freights</a></li>
+                    <li><i class="fa fa-motorcycle"></i><a href="#">Bikes & Scoot</a></li>
+                    <li><i class="fa fa-dolly"></i><a href="#">Transit</a></li>
+                    <li><i class="fa fa-building"></i><a href="#">Business</a></li>
+                    <li><i class="fa fa-money"></i><a href="#">Money</a></li>
+                    
+                </div>
+
+
+
+
                 <div class="logSign">
                     <button class="logBtn navlist">
                         Log in
