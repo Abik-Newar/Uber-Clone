@@ -4,6 +4,7 @@ const dropChange = document.getElementById('dropChange');
 
 CompanyDrop.onclick = function () {
     modalDrop.classList.toggle('showDrop');
+    
 
     if (modalDrop.classList.contains('showDrop')) {
         dropChange.className = "fa fa-chevron-up";
@@ -11,6 +12,8 @@ CompanyDrop.onclick = function () {
         dropChange.className = "fa fa-chevron-down";
     }
 };
+
+
 
 
 const productBtn =document.getElementById('productBtn');
@@ -22,5 +25,11 @@ productBtn.onclick = function() {
     productDrop.classList.toggle('showDrop');
 
 }
+
+
+
+
+
+
 
 

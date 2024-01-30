@@ -1,11 +1,15 @@
+:root{
+    --font-fam : system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body{
     margin: 0;
 }
 
 .section{
     width: 100%;
-    height: 100vh;
-    background-color: rgb(21, 21, 21);
+    height: 110vh;
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar{
@@ -23,7 +27,7 @@ body{
 
 .logo h2{
     font-size: 24px;
-    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--font-fam);
     font-weight: 400;
     margin: 0;
     color: #fff;
@@ -47,7 +51,7 @@ body{
     border: none;
     color: #fff;
     font-weight: 500;
-    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--font-fam);
 }
 
 .navlist a{
@@ -61,6 +65,7 @@ body{
     color: #fff;
     margin: 0px 3px;
     font-size: 14px;
+    transition: 0.3s;
 }
 
 .navlist:hover{ 
@@ -77,6 +82,7 @@ body{
 .rightNav{
     width: 29%;
     display: flex;
+    justify-content: space-between;
 }
 
 .logSign{
@@ -105,11 +111,12 @@ body{
   left: 210px;
   background-color: #fff;
   min-width: 170px;
-  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-fam);
   font-size: 14px;
   font-weight: 500;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  transition: 0.3s;
 }
 
 .dropdownCompany a{
@@ -135,16 +142,18 @@ body{
     width: 250px;
     height: 300px;
     background-color: #fff;
-    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--font-fam);
   font-size: 14px;
   font-weight: 500;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   overflow-y: scroll;
   overflow-x: hidden;
+  transition: 0.3s;
 }
 .showDrop{
     display: block;
+    transition: 0.3s;
 }
 .productDrop li{
     list-style: none;
@@ -172,4 +181,113 @@ body{
    color: rgb(89, 89, 89);
    font-size: 18px;
 }
+
+
+
+.container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.heroText{
+    width: 100%;
+
+}
+
+.heroText h1{
+    font-family: var(--font-fam);
+    font-size: 3.3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.heroText p{
+    font-family: var(--font-fam);
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 5px 0px 15px 0px;
+}
+
+
+
+.heroImg{
+    width: 100%;
+    display: flex;
+}
+
+.heroImg img{
+    width: 95%;
+    border-radius: 12px;
+}
+
+
+form{
+    width: 85%;
+}
+
+.inputArea{
+    width: 80%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom:15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input{
+    
+    height: 30px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: var(--font-fam);
+}
+
+
+.input-icon{
+    width: 10%;
+}
+
+.input-icon i{
+    font-size: 12px;
+}
+
+.seeprice{
+    margin-top: 30px;
+}
+
+.spBtn{
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spBtn a{
+    color: black;
+    font-family: var(--font-fam);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+
 
