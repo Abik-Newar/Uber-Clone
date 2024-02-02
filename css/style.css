@@ -430,3 +430,114 @@ form{
     transition: 1s ease;
 }
 
+
+.coosBtn a:hover{
+    border-bottom: 2px solid #000000;
+}
+
+
+
+.heroText4 h2{
+    color: black;
+    font-family: var(--font-fam);
+    font-size: 30px;
+    line-height: 34px;
+}
+.heroText4 p{
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.heroText4{
+    display: flex;
+    justify-content: center;
+}
+
+.heroText4 .containerText{
+    width: 75%;
+
+}
+
+.section5 .containerDn h2{
+    font-family: var(--font-fam);
+    font-size: 30px;
+}
+
+.section5{
+    background-color: #e7e7e7;
+}
+
+.containerDn{
+    width: 75%;
+    padding: 64px;
+    margin: auto;
+}
+
+
+.app-images{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.app-images .boxDn{
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.app-images .boxDn img{
+    width: 150px;
+    height: 150px;
+}
+
+.app-images .boxDn .textArea{
+    width: 55%;
+    background-color: #fff;
+    font-family: var(--font-fam);
+}
+
+
+.app-images .boxDn .textArea h2{
+    line-height: 30px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.app-images .boxDn .textArea p{
+    line-height: 30px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.app-images .boxDn .dnIcon1,
+.app-images .boxDn .dnIcon2{
+    width: 10%;
+}
+.dnIcon1 i{
+    font-size: 18px;
+    transition: 1s;
+}
+
+.app-images .uberApp:hover .dnIcon1 i{
+    margin-left: 10px;
+}
+
+.dnIcon2 i{
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.app-images .driverApp:hover .dnIcon2 i{
+    margin-left: 10px;
+}
+
