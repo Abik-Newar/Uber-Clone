@@ -544,3 +544,41 @@ form{
 .section6{
     background-color: #000000;
 }
+.containerFooter{
+    width: 75%;
+    padding: 64px;
+    margin: auto;
+}
+
+.footerlogo h3{
+    color: #fff;
+    font-family: var(--font-fam);
+    font-weight: 500;
+}
+
+.footerlogo h2{
+    font-size: 24px;
+    font-family: var(--font-fam);
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+
+.listFooter{
+    color: #fff;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-fam);
+    font-weight: 400;
+}
+
+.listFooter ul h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.listFooter ul li{
+    list-style: none;
+    line-height: 30px;
+}
