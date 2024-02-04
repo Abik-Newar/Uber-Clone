@@ -566,19 +566,119 @@ form{
 
 .listFooter{
     color: #fff;
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     font-family: var(--font-fam);
     font-weight: 400;
 }
 
+.listFooter ul{
+    padding: 0;
+}
+
 .listFooter ul h2{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
 }
 
 .listFooter ul li{
     list-style: none;
     line-height: 30px;
+}
+
+.footerLinks{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialIcon{
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconBox {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+
+.iconBox:hover{
+    background-color: rgb(64, 64, 64);
+}
+
+.socialIcon .iconBox i{
+    color: #fff;
+}
+
+.rightlinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;     
+
+}
+
+.rightlinks .footericon{
+    transition: 0.5s;
+}
+.rightlinks .footericon:hover{
+    border-radius: 5px;
+}
+
+.getOn{
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.getOn img{
+    width: 48%;
+}
+
+.footerEnd{
+    margin-top: 30px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.footerEnd .leftSide{
+    display: flex;
+    color: #898989;
+    align-items: center;
+    font-family: var(--font-fam);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerEnd .rightSide{
+    width: 20%;
+    display: flex;
+    color: #898989;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-fam);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerEnd .rightSide a{
+    text-decoration: none;
+    color: #898989;
+}
+
+.footerEnd .rightSide a:hover{
+    color: rgb(64, 64, 64);
 }
